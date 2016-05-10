@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td><label><img src="/images/save.gif"/> 上传课件：</label></td>
+        <td><label><input type="file" name="uploadify" id="uploadify"/></label>&nbsp;&nbsp;</td>
+        <td><div id="fileQueue"></div></td>
+    </tr>
+</table>
+
+<script src="plugin/seajs-3.0.0/sea.js"></script>
+<script src="js/sea-config.js"></script>
+<script>
+    seajs.use(['upload']);
+</script>
+</body>
+</html>
