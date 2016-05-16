@@ -9,7 +9,7 @@ define(function(require,exprots,moudle){
 
     $("#file").uploadify({  
     	'swf': 'plugin/uploadify/uploadify.swf',
-        'cancelImage': 'plugin_demo/plugin/uploadify/uploadify-cancel.png',
+        'cancelImage': 'plugin/uploadify/uploadify-cancel.png',
         'multi': true,
         'buttonText': '文件上传'
     });
